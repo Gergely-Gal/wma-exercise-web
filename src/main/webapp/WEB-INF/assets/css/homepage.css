@@ -1,0 +1,63 @@
+@import url("common.css");
+
+.dataTable {
+ margin: 20px auto;
+ border-collapse: collapse;
+}
+
+td {
+ border: 1px solid #694E6B;
+}
+
+table.dataTable{
+    font-family: Cambria, serif;
+    font-size: 17px;
+    font-weight: normal;
+    line-height: 1.4em;
+    font-style: normal;
+    text-transform: normal;
+    border-collapse: separate;
+}
+
+.dataTable th{
+    padding:5px;
+    color:#fff;
+    text-shadow:1px 1px 1px #3B4545;
+    border:1px solid #3799CE;
+    border-bottom:3px solid #6B81B1;
+    background-color:#2B4478;
+    background:
+       -webkit-gradient(linear, left bottom, left top,
+        color-stop(0.02, rgb(13,33,76)),
+        color-stop(0.51, rgb(87,116,177)),
+        color-stop(0.87, rgb(107,129,177))
+        );
+    background:
+       -moz-linear-gradient(center bottom,
+        rgb(13,33,76) 2%,
+        rgb(87,116,177) 51%,
+        rgb(107,129,177) 87%
+        );
+    -webkit-border-top-left-radius:5px;
+    -webkit-border-top-right-radius:5px;
+    -moz-border-radius:5px 5px 0px 0px;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+}
+
+.dataTable td{
+    padding:10px;
+    text-align:center;
+    background-color:#CAE2F3;
+    border: 2px solid #E0E6EF;
+    -moz-border-radius:2px;
+    -webkit-border-radius:2px;
+    border-radius:2px;
+    color:#666;
+    text-shadow:1px 1px 1px #fff;
+    width: 200px;
+}
+
+.dataTable tr:nth-child(even) td{
+   background-color: #ddd;
+}

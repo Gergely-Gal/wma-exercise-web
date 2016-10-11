@@ -1,0 +1,22 @@
+body {
+	background-color: #494E6B;
+	color: #98878F;
+}
+
+a {
+	color: #98878F;
+}
+
+.header {
+	background-color: #192231;
+	padding: 10px;
+	text-align: center;
+}
+
+.language-selector {
+	font-weight: bold;
+	background-color: #192231;
+	padding: 10px;
+	text-align: center;
+	background-color: #192231;
+}
