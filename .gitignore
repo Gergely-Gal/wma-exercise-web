@@ -70,3 +70,6 @@ buildNumber.properties
 
 ### TestNG ###
 test-output/
+
+### IntelliJ Idea ###
+.idea
